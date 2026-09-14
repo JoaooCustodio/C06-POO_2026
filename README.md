@@ -8,7 +8,7 @@ A principal utilização de IA no meu trabalho foi para explicação dos Getters
 pois não estive presente na aula e perdi a explicação e também utilizei para me explicar novamente sobre construtores.
 Além disso, foi utilizado para resolução de um problema que estava acontecendo na saída de dados, 
 valores String provenientes de outras classes estavam aparecendo como 'nome da classe @ identificação do objeto', 
-o chat me explicou que quando você manda o Java imprimir um objeto diretamente, ele usa o método toString() padrão da classe Object, 
+não sei se isso foi explicado em aula mas o chat me explicou que quando você manda o Java imprimir um objeto diretamente, ele usa o método toString() padrão da classe Object, 
 então ele me ensinou que podemos criar um toString() nas classes que estão aparecendo dessa forma. 
 Então digo que foi muito proveitoso pra mim ter utilizado a IA e aprendido essas questões dessa forma.
 
