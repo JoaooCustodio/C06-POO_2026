@@ -1,7 +1,9 @@
 import java.util.Scanner;
 
-public class Main {
-    public static void main(String[] args) {
+public class Main 
+{
+    public static void main(String[] args) 
+    {
 
         Scanner entrada = new Scanner(System.in);
 
@@ -61,7 +63,8 @@ public class Main {
         System.out.println("Digite qualquer valor (positivo) para iniciar a compra:");
         x = entrada.nextInt();
 
-        while (x != 0){
+        while (x != 0)
+        {
             System.out.println("Digite a promoção desejada:");
             System.out.println("1 - Apple");
             System.out.println("2 - Samsung");
@@ -70,22 +73,26 @@ public class Main {
 
             x = entrada.nextInt();
 
-            if (x == 1) {
+            if (x == 1)
+            {
                 computadores[quantidade] = pc1;
                 quantidade++;
                 System.out.println("Apple adicionada ao pedido!");
             }
-            else if (x == 2) {
+            else if (x == 2) 
+            {
                 computadores[quantidade] = pc2;
                 quantidade++;
                 System.out.println("Samsung adicionada ao pedido!");
             }
-            else if (x == 3) {
+            else if (x == 3) 
+            {
                 computadores[quantidade] = pc3;
                 quantidade++;
                 System.out.println("Dell adicionada ao pedido!");
             }
-            else if (x != 0) {
+            else if (x != 0)
+            {
                 System.out.println("Opção inválida!");
             }
         }
@@ -98,7 +105,8 @@ public class Main {
         //Mostrando o pedido
         System.out.println("\n========== PEDIDO ==========");
 
-        for (int i = 0; i < quantidade; i++) {
+        for (int i = 0; i < quantidade; i++) 
+        {
             computadores[i].mostraPCconfig();
             System.out.println("-----------------------------");
         }
